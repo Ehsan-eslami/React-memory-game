@@ -99,11 +99,11 @@ function App() {
   }
 
   const handleSituation = () => {
-    if (turns < 10 ) {
+    if (turns < 30 ) {
         setSituation('Amazing!!')
-    } else if (turns < 20 ) { 
+    } else if (turns < 40 ) { 
         setSituation('Great!!')
-    } else if (turns < 30 ) {
+    } else if (turns < 50 ) {
         setSituation("Good Job!!")
     } else {
         setSituation('You need to try more')
@@ -155,7 +155,7 @@ function App() {
                 </span>
               </h4>
               <br />
-              <h4 className=" text-sm sm:text-lg md:text-2xl font-medium">You've finished 
+              <h4 className=" text-sm sm:text-lg md:text-2xl font-medium">You've finished in
                 <span className="font-bold ml-2  text-blue-700">
                   {turns}
                 </span> moves
