@@ -8,7 +8,7 @@ export default function Footer() {
           Source code 
         </p>
         <img src="svgs/code.svg" alt="code svg" className="h-[20px] my-auto" />:
-        <a className=" text-blue-700 underline underline-offset-2 font-semibold" href="https://github.com/Ehsan-eslami/React-memory-game">GitHub</a>
+        <a className=" text-blue-700 underline underline-offset-2 font-semibold" href="https://github.com/Ehsan-eslami/Eat-and-Split">GitHub</a>
       </div>
       <div className="flex justify-center gap-1" >
         <p className=" font-medium">
