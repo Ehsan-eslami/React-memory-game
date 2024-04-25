@@ -125,7 +125,7 @@ function App() {
         <p className="shadow-[2px_2px_1px_2px_rgba(0,150,255,1)] rounded text-xs sm:text-lg md:text-xl py-2 px-4">Turns: {turns}</p>
       </div>
       <br />
-      <div className="container grid grid-cols-2 sm:grid-cols-4  lg:grid-cols-8 gap-6 max-w-screen ">
+      <div className="container grid grid-cols-4   lg:grid-cols-8 gap-6 max-w-screen ">
         {
           cards.map((card) => (
             <SingleCard 
